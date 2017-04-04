@@ -41,23 +41,23 @@
                 <a id="logo" class="pull-left" href="<?php echo base_url(); ?>template/index.html"></a>
                 <div class="nav-collapse collapse pull-right">
                     <ul class="nav">
-                        <li class="active"><a href="<?php echo base_url(); ?>template/index.html">Home</a></li>
-                        <li><a href="<?php echo base_url(); ?>template/about-us.html">About Us</a></li>
-                        <li><a href="<?php echo base_url(); ?>template/services.html">Services</a></li>
-                        <li><a href="<?php echo base_url(); ?>template/portfolio.html">Portfolio</a></li>
+                        <li class="active"><a href="<?php echo base_url(); ?>">Home</a></li>
+                        <li><a href="<?php echo base_url(); ?>index.php/about">About Us</a></li>
+                        <li><a href="<?php echo base_url(); ?>index.php/services">Services</a></li>
+                        <li><a href="<?php echo base_url(); ?>index.php/portfolio">Portfolio</a></li>
                         <li class="dropdown">
                             <a href="<?php echo base_url(); ?>template/#" class="dropdown-toggle" data-toggle="dropdown">Pages <i class="icon-angle-down"></i></a>
                             <ul class="dropdown-menu">
-                                <li><a href="<?php echo base_url(); ?>template/career.html">Career</a></li>
-                                <li><a href="<?php echo base_url(); ?>template/blog-item.html">Blog Single</a></li>
-                                <li><a href="<?php echo base_url(); ?>template/faq.html">FAQ</a></li>
-                                <li><a href="<?php echo base_url(); ?>template/pricing.html">Pricing</a></li>
-                                <li><a href="<?php echo base_url(); ?>template/404.html">404</a></li>
-                                <li><a href="<?php echo base_url(); ?>template/typography.html">Typography</a></li>
-                                <li><a href="<?php echo base_url(); ?>template/registration.html">Registration</a></li>
+                                <li><a href="<?php echo base_url(); ?>index.php/career">Career</a></li>
+                                <li><a href="<?php echo base_url(); ?>index.php/blog-item">Blog Single</a></li>
+                                <li><a href="<?php echo base_url(); ?>index.php/faq">FAQ</a></li>
+                                <li><a href="<?php echo base_url(); ?>index.php/pricing">Pricing</a></li>
+                                <li><a href="<?php echo base_url(); ?>index.php/404">404</a></li>
+                                <li><a href="<?php echo base_url(); ?>index.php/typography">Typography</a></li>
+                                <li><a href="<?php echo base_url(); ?>index.php/registration">Registration</a></li>
                                 <li class="divider"></li>
-                                <li><a href="<?php echo base_url(); ?>template/privacy.html">Privacy Policy</a></li>
-                                <li><a href="<?php echo base_url(); ?>template/terms.html">Terms of Use</a></li>
+                                <li><a href="<?php echo base_url(); ?>index.php/privacy">Privacy Policy</a></li>
+                                <li><a href="<?php echo base_url(); ?>index.php/terms">Terms of Use</a></li>
                             </ul>
                         </li>
                         <li><a href="<?php echo base_url(); ?>template/blog.html">Blog</a></li> 
